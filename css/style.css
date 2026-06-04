@@ -36,11 +36,11 @@ a{text-decoration:none;color:inherit}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
 .brand{display:flex;align-items:center;gap:14px;font-weight:900;color:var(--yellow);font-size:22px;white-space:nowrap}
 .logo-box{
-  width:68px;height:68px;border-radius:20px;
-  background:linear-gradient(145deg,#151d37,#0b1024);
-  display:grid;place-items:center;
-  box-shadow:0 14px 38px rgba(0,0,0,.28);
-  font-size:28px;border:1px solid var(--line);
+  width:68px;
+  height:68px;
+  background:none;
+  box-shadow:none;
+  border:none;
 }
 .nav-links{display:flex;gap:28px;font-weight:800;color:#fff;align-items:center}
 .nav-links a{opacity:.9;transition:.2s}
