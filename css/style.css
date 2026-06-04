@@ -34,10 +34,19 @@ a{text-decoration:none;color:inherit}
   z-index:50;
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
-.brand{display:flex;align-items:center;gap:14px;font-weight:900;color:var(--yellow);font-size:22px;white-space:nowrap}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:6px; /* היה 14px */
+  font-weight:900;
+  color:var(--yellow);
+  font-size:22px;
+  white-space:nowrap;
+}
+
 .logo-box{
-  width:68px;
-  height:68px;
+  width:85px; /* היה 68 */
+  height:85px;
   background:none;
   box-shadow:none;
   border:none;
