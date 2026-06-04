@@ -311,8 +311,3 @@ footer{padding:38px 0;text-align:center;color:#9fa8c5;background:#070b1a;border-
 .faq-item summary::after{content:"+";color:var(--yellow);font-size:30px;transition:.25s}
 .faq-item[open] summary::after{content:"−"}
 .faq-item p{padding:0 26px 24px;color:var(--muted);font-size:17px}
-.logo-img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-}
